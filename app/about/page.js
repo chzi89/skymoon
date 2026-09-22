@@ -31,16 +31,19 @@ const leadership = [
     role: "Chairman",
     name: "[Name]",
     bio: "[Add a short verified biography, industry background and responsibilities.]",
+    portrait: image("photo-1500648767791-00dcc994a43e", 700),
   },
   {
     role: "Managing Director",
     name: "[Name]",
     bio: "[Add a short verified biography, operating focus and leadership responsibilities.]",
+    portrait: image("photo-1506794778202-cad84cf45f1d", 700),
   },
   {
     role: "Accounts Department",
     name: "[Department Contact]",
     bio: "[Add the department contact details or a short description of finance and account support.]",
+    portrait: image("photo-1522202176988-66273c2fd55f", 700),
   },
 ];
 
@@ -50,8 +53,8 @@ export default function AboutPage() {
       <section className="page-hero">
         <img
           className="hero-media"
-          src={image("photo-1761933799610-c9a75f115794", 2200)}
-          alt="Professional business discussion between trading partners"
+          src={image("photo-1552664730-d307ca884978", 2200)}
+          alt="Corporate business meeting with team members discussing trade strategy"
         />
         <div className="hero-overlay" />
         <div className="container hero-content">
@@ -69,13 +72,15 @@ export default function AboutPage() {
         <div className="container split split-about">
           <div className="image-frame tall">
             <img
-              src={image("photo-1758518729759-f580dc06770f", 1300)}
-              alt="Business team reviewing trade documents in a modern office"
+              src={image("photo-1522202176988-66273c2fd55f", 1300)}
+              alt="Business colleagues reviewing trade documents in a modern office"
             />
           </div>
           <div className="section-copy">
             <p className="eyebrow">Who We Are</p>
-            <h2>A focused trading partner for agricultural and food products.</h2>
+            <h2>
+              A focused trading partner for agricultural and food products.
+            </h2>
             <p>
               Sky Moon Trading works with product sourcing, trade coordination
               and buyer communication for food and agricultural categories such
@@ -137,12 +142,11 @@ export default function AboutPage() {
         <div className="container leadership-grid">
           {leadership.map((person) => (
             <article className="leader-card" key={person.role}>
-              <div className="leader-avatar" aria-hidden="true">
-                {person.role
-                  .split(" ")
-                  .map((word) => word[0])
-                  .join("")
-                  .slice(0, 2)}
+              <div
+                className="leader-avatar"
+                aria-label={`${person.role} portrait`}
+              >
+                <img src={person.portrait} alt={person.role} />
               </div>
               <div>
                 <span>{person.role}</span>

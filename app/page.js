@@ -3,52 +3,58 @@
 
 const featuredProducts = [
   {
-    name: "Rice",
+    name: "Premium Basmati Rice",
     category: "Agricultural Staples",
     description:
-      "Quality rice sourcing for buyers seeking dependable staple food supply.",
-    image: image("photo-1748919430481-3614b5f9542b", 1200),
-    alt: "Rice grains growing in a field",
+      "Carefully handled rice supply suitable for buyers seeking dependable staple food sourcing.",
+    image: image("photo-1615485519315-78f8b4d61684", 1200),
+    alt: "Close-up of premium rice grains in a bowl and field scene",
+    action: "View Product",
   },
   {
-    name: "Vegetables",
+    name: "Fresh Vegetables",
     category: "Fresh Produce",
     description:
-      "Fresh vegetable supply options coordinated with careful handling and clear specifications.",
-    image: image("photo-1775825772432-58a1a31dcf40", 1200),
-    alt: "Fresh vegetables and fruits displayed in crates",
+      "Fresh vegetables selected for handling, presentation and consistent supply planning.",
+    image: image("photo-1542838132-92c53300491e", 1200),
+    alt: "Fresh vegetables arranged in a market display",
+    action: "Request Quote",
   },
   {
-    name: "Sugar",
+    name: "Refined Sugar",
     category: "Food Ingredients",
     description:
-      "Sugar and food ingredient inquiries supported with packaging and volume details on request.",
-    image: image("photo-1769259397222-33e425659c43", 1200),
-    alt: "White granular sugar in a glass jar",
+      "Sugar sourcing coordinated around packaging requirements, delivery planning and buyer needs.",
+    image: image("photo-1582719471384-8d33d8a0f6d4", 1200),
+    alt: "Refined sugar in a premium industrial packaging setting",
+    action: "View Product",
   },
   {
     name: "Cooking Oil",
     category: "Edible Oils",
     description:
-      "Cooking oil trading solutions for food service, retail and distribution requirements.",
-    image: image("photo-1562500273-8ab8072d58e0", 1200),
-    alt: "Bottle of cooking oil",
+      "Cooking oil trade inquiries handled with attention to product grade, packing and market fit.",
+    image: image("photo-1473448912268-2022ce9509d8", 1200),
+    alt: "Cooking oil bottles on a clean commercial countertop",
+    action: "Request Quote",
   },
   {
     name: "Pulses",
     category: "Grains & Legumes",
     description:
-      "Beans, peas, lentils and related pulse products sourced for international buyers.",
-    image: image("photo-1575519893292-bc112ee03729", 1200),
-    alt: "Assorted beans and pulses",
+      "Lentils, beans and pulse categories sourced for international trade and consistent supply flow.",
+    image: image("photo-1582515073490-39981397c445", 1200),
+    alt: "Assorted beans and pulses in natural light",
+    action: "View Product",
   },
   {
-    name: "Nuts",
+    name: "Mixed Nuts",
     category: "Dry Goods",
     description:
-      "Nut and dry goods inquiries handled with attention to grade, packaging and destination needs.",
-    image: image("photo-1772986797512-aca552d6bffb", 1200),
-    alt: "Almonds and pistachios on a light surface",
+      "Nut supply options managed with attention to handling, storage and customer expectations.",
+    image: image("photo-1509440159596-0249088772ff", 1200),
+    alt: "Mixed nuts presented in a premium food product display",
+    action: "Request Quote",
   },
 ];
 
@@ -84,15 +90,15 @@ export default function Home() {
       <section className="hero hero-home" id="home">
         <img
           className="hero-media"
-          src={image("photo-1778441531349-b0c874287ebc", 2200)}
-          alt="Cargo containers, trucks and rail logistics at an international port"
+          src={image("photo-1586528116311-ad8dd3c8310d", 2200)}
+          alt="Shipping containers and cargo logistics in a busy port terminal"
         />
         <div className="hero-overlay" />
         <div className="container hero-content">
           <p className="eyebrow">International Trading & Supply</p>
           <h1>Connecting Quality Products With Global Markets</h1>
           <p className="hero-lede">
-            Reliable sourcing, professional trading and quality products -
+            Reliable sourcing, professional trading and quality products,
             connecting trusted supply with opportunities across international
             markets.
           </p>
@@ -111,8 +117,8 @@ export default function Home() {
         <div className="container split split-about">
           <div className="image-frame tall">
             <img
-              src={image("photo-1770710195407-b31627609c0b", 1400)}
-              alt="Stacked shipping containers at a logistics terminal"
+              src={image("photo-1552664730-d307ca884978", 1400)}
+              alt="Business team reviewing trade documents in a corporate office"
             />
           </div>
           <div className="section-copy">
@@ -155,7 +161,7 @@ export default function Home() {
                 <span>{product.category}</span>
                 <h3>{product.name}</h3>
                 <p>{product.description}</p>
-                <a href="/contact#quote">Request details</a>
+                <a href="/contact#quote">{product.action}</a>
               </div>
             </article>
           ))}
@@ -182,7 +188,9 @@ export default function Home() {
         <div className="container split">
           <div className="section-copy">
             <p className="eyebrow">Services</p>
-            <h2>End-to-end trading support with a real-world supply chain view.</h2>
+            <h2>
+              End-to-end trading support with a real-world supply chain view.
+            </h2>
             <p>
               From first inquiry to shipment follow-up, our work is organized
               around accurate product details, practical documentation and
@@ -199,12 +207,14 @@ export default function Home() {
           </div>
           <div className="image-stack">
             <img
-              src={image("photo-1774929105466-0d08336e4baf", 1300)}
-              alt="Colorful shipping containers stacked at a port"
+              src={image("photo-1586528116311-ad8dd3c8310d", 1300)}
+              alt="Cargo containers and warehouse logistics in a commercial port"
             />
             <div className="stack-panel">
               <strong>Trade Coordination</strong>
-              <span>Sourcing, specification, documentation and shipment support.</span>
+              <span>
+                Sourcing, specification, documentation and shipment support.
+              </span>
             </div>
           </div>
         </div>
@@ -212,16 +222,19 @@ export default function Home() {
 
       <section className="section section-paper" id="markets">
         <div className="container split reverse">
-          <div className="market-panel" aria-label="Editable global markets map">
+          <div
+            className="market-panel"
+            aria-label="Business logistics and market conversation panel"
+          >
             <div className="market-map">
-              <span className="pin pin-one" />
-              <span className="pin pin-two" />
-              <span className="pin pin-three" />
-              <span className="pin pin-four" />
+              <div className="market-card-overlay">
+                <span>Supply</span>
+                <strong>Global trade coordination</strong>
+              </div>
             </div>
             <p>
-              Market regions are intentionally editable. Replace these labels
-              only with verified countries or regions served by the company.
+              Market planning remains intentionally editable and should be
+              updated with confirmed company details when available.
             </p>
           </div>
           <div className="section-copy">

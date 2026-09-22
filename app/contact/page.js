@@ -68,8 +68,8 @@ export default function ContactPage() {
       <section className="page-hero contact-hero">
         <img
           className="hero-media"
-          src={image("photo-1770710195407-b31627609c0b", 2200)}
-          alt="International shipping containers at a port"
+          src={image("photo-1497366754035-f200968a6e72", 2200)}
+          alt="Professional corporate meeting room with business discussion"
         />
         <div className="hero-overlay" />
         <div className="container hero-content">
@@ -118,7 +118,11 @@ export default function ContactPage() {
             <div className="form-row">
               <label>
                 Email
-                <input name="email" type="email" placeholder="name@company.com" />
+                <input
+                  name="email"
+                  type="email"
+                  placeholder="name@company.com"
+                />
               </label>
               <label>
                 Phone
