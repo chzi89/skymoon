@@ -9,7 +9,7 @@ import { Review } from "@/types/review.types";
 export const newArrivalsData: Product[] = [
   {
     id: 1,
-    title: "T-shirt with Tape Details",
+    title: "Basmati Rice",
     srcUrl: "/images/pic1.png",
     gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
     price: 120,
@@ -21,7 +21,7 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 2,
-    title: "Skinny Fit Jeans",
+    title: "Long Grain Rice",
     srcUrl: "/images/pic2.png",
     gallery: ["/images/pic2.png"],
     price: 260,
@@ -33,7 +33,7 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 3,
-    title: "Chechered Shirt",
+    title: "Premium Rice",
     srcUrl: "/images/pic3.png",
     gallery: ["/images/pic3.png"],
     price: 180,
@@ -45,7 +45,7 @@ export const newArrivalsData: Product[] = [
   },
   {
     id: 4,
-    title: "Sleeve Striped T-shirt",
+    title: "Parboiled Rice",
     srcUrl: "/images/pic4.png",
     gallery: ["/images/pic4.png", "/images/pic10.png", "/images/pic11.png"],
     price: 160,
@@ -60,7 +60,7 @@ export const newArrivalsData: Product[] = [
 export const topSellingData: Product[] = [
   {
     id: 5,
-    title: "Vertical Striped Shirt",
+    title: "Oranges & Kinnow",
     srcUrl: "/images/pic5.png",
     gallery: ["/images/pic5.png", "/images/pic10.png", "/images/pic11.png"],
     price: 232,
@@ -72,7 +72,7 @@ export const topSellingData: Product[] = [
   },
   {
     id: 6,
-    title: "Courage Graphic T-shirt",
+    title: "Mandarin & Fresh Citrus",
     srcUrl: "/images/pic6.png",
     gallery: ["/images/pic6.png", "/images/pic10.png", "/images/pic11.png"],
     price: 145,
@@ -84,7 +84,7 @@ export const topSellingData: Product[] = [
   },
   {
     id: 7,
-    title: "Loose Fit Bermuda Shorts",
+    title: "Raw Cotton & Cotton Bales",
     srcUrl: "/images/pic7.png",
     gallery: ["/images/pic7.png"],
     price: 80,
@@ -96,7 +96,7 @@ export const topSellingData: Product[] = [
   },
   {
     id: 8,
-    title: "Faded Skinny Jeans",
+    title: "Cotton Fiber",
     srcUrl: "/images/pic8.png",
     gallery: ["/images/pic8.png"],
     price: 210,
@@ -111,7 +111,7 @@ export const topSellingData: Product[] = [
 export const relatedProductData: Product[] = [
   {
     id: 12,
-    title: "Polo with Contrast Trims",
+    title: "Olive Oil & Natural Cooking Oil",
     srcUrl: "/images/pic12.png",
     gallery: ["/images/pic12.png", "/images/pic10.png", "/images/pic11.png"],
     price: 242,
@@ -123,7 +123,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 13,
-    title: "Gradient Graphic T-shirt",
+    title: "Cold-Pressed Natural Oil",
     srcUrl: "/images/pic13.png",
     gallery: ["/images/pic13.png", "/images/pic10.png", "/images/pic11.png"],
     price: 145,
@@ -135,7 +135,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 14,
-    title: "Polo with Tipping Details",
+    title: "Nuts: Almonds, Cashews, Walnuts & Pistachios",
     srcUrl: "/images/pic14.png",
     gallery: ["/images/pic14.png"],
     price: 180,
@@ -147,7 +147,7 @@ export const relatedProductData: Product[] = [
   },
   {
     id: 15,
-    title: "Black Striped T-shirt",
+    title: "Dry Fruits: Dates, Raisins, Figs & Apricots",
     srcUrl: "/images/pic15.png",
     gallery: ["/images/pic15.png"],
     price: 150,
@@ -162,46 +162,48 @@ export const relatedProductData: Product[] = [
 export const reviewsData: Review[] = [
   {
     id: 1,
-    user: "Alex K.",
-    content:
-      '"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”',
+    user: "Global Sourcing",
+    content: "Reliable sourcing of quality products for international markets.",
     rating: 5,
-    date: "August 14, 2023",
+    date: "",
   },
   {
     id: 2,
-    user: "Sarah M.",
-    content: `"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”`,
+    user: "Import & Export",
+    content: "Professional trading and export solutions for global buyers.",
     rating: 5,
-    date: "August 15, 2023",
+    date: "",
   },
   {
     id: 3,
-    user: "Ethan R.",
-    content: `"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."`,
+    user: "Quality Focus",
+    content:
+      "Carefully selected products with a focus on consistency and quality.",
     rating: 5,
-    date: "August 16, 2023",
+    date: "",
   },
   {
     id: 4,
-    user: "Olivia P.",
-    content: `"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."`,
+    user: "Reliable Partnerships",
+    content:
+      "Building long-term relationships with suppliers and international buyers.",
     rating: 5,
-    date: "August 17, 2023",
+    date: "",
   },
   {
     id: 5,
-    user: "Liam K.",
-    content: `"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."`,
+    user: "Sky Moon Trading",
+    content: "Trading quality. Building global connections.",
     rating: 5,
-    date: "August 18, 2023",
+    date: "",
   },
   {
     id: 6,
-    user: "Samantha D.",
-    content: `"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."`,
+    user: "Global Markets",
+    content:
+      "We connect carefully sourced products with international buyers and markets, creating reliable opportunities across the global trading network.",
     rating: 5,
-    date: "August 19, 2023",
+    date: "",
   },
 ];
 
@@ -212,16 +214,16 @@ export default function Home() {
       <Brands />
       <main className="my-[50px] sm:my-[72px]">
         <ProductListSec
-          title="NEW ARRIVALS"
+          title="Featured Export Products"
           data={newArrivalsData}
           viewAllLink="/shop#new-arrivals"
         />
         <div className="max-w-frame mx-auto px-4 xl:px-0">
-          <hr className="h-[1px] border-t-black/10 my-10 sm:my-16" />
+          <hr className="`h-px border-t-black/10 my-10 sm:my-16" />
         </div>
         <div className="mb-[50px] sm:mb-20">
           <ProductListSec
-            title="top selling"
+            title="Products for Global Markets"
             data={topSellingData}
             viewAllLink="/shop#top-selling"
           />

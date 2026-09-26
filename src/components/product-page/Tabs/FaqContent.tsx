@@ -13,34 +13,33 @@ type FaqItem = {
 
 const faqsData: FaqItem[] = [
   {
-    question: "What is the material of the t-shirt?",
+    question: "What product categories does Sky Moon Trading offer?",
     answer:
-      "Provide details about the fabric type (e.g., cotton, polyester, blend), weight, and any specific features.",
+      "Rice, citrus and fresh fruits, cotton, natural oils, nuts, dry fruits and other agricultural products.",
   },
   {
-    question: "What are the care instructions for the t-shirt?",
+    question: "How does Sky Moon Trading work with suppliers?",
     answer:
-      "Outline recommended washing, drying, and ironing methods to maintain quality and longevity.",
+      "Sky Moon Trading focuses on reliable sourcing and long-term partnerships with suppliers and international buyers.",
   },
   {
-    question: "What is the design or print on the t-shirt made of?",
+    question: "Which rice products are available?",
     answer:
-      "Explain the material used for the design (e.g., vinyl, screen print, embroidery) and its durability.",
+      "The catalog includes basmati, long grain, premium and parboiled rice.",
   },
   {
-    question: "Is the t-shirt unisex or designed for specific genders?",
+    question: "Which citrus and fruit products are available?",
     answer:
-      "Indicate whether the shirt is suitable for both men and women or targeted towards a particular gender.",
+      "The catalog includes oranges, kinnow, mandarins, fresh citrus and seasonal fruits.",
   },
   {
-    question: "What are the shipping options and costs?",
+    question: "Which other products are available?",
     answer:
-      "Provide information about shipping methods, estimated delivery times, and associated fees.",
+      "Cotton, olive oil, natural cooking oils, almonds, cashews, walnuts, pistachios, dates, raisins, dried figs and dried apricots.",
   },
   {
-    question: "What is the return policy for the t-shirt?",
-    answer:
-      "Outline the return window, conditions, and refund or exchange procedures.",
+    question: "Who leads Sky Moon Trading?",
+    answer: "CEO: Liton Sen. Managing Director / Manager: MD Shafique.",
   },
 ];
 

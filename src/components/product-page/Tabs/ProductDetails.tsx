@@ -7,20 +7,20 @@ export type SpecItem = {
 
 const specsData: SpecItem[] = [
   {
-    label: " Material composition",
-    value: "100% Cotton",
+    label: "Product category",
+    value: "Agricultural and natural products",
   },
   {
-    label: "Care instructions",
-    value: "Machine wash warm, tumble dry",
+    label: "Trade focus",
+    value: "International import and export",
   },
   {
-    label: "Fit type",
-    value: "Classic Fit",
+    label: "Sourcing",
+    value: "Quality-focused product sourcing",
   },
   {
-    label: "Pattern",
-    value: "Solid",
+    label: "Partnerships",
+    value: "Suppliers and international buyers",
   },
 ];
 

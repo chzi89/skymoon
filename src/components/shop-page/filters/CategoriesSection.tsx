@@ -9,24 +9,32 @@ type Category = {
 
 const categoriesData: Category[] = [
   {
-    title: "T-shirts",
-    slug: "/shop?category=t-shirts",
+    title: "Rice",
+    slug: "/shop?category=rice",
   },
   {
-    title: "Shorts",
-    slug: "/shop?category=shorts",
+    title: "Citrus & Fruits",
+    slug: "/shop?category=citrus-fruits",
   },
   {
-    title: "Shirts",
-    slug: "/shop?category=shirts",
+    title: "Cotton",
+    slug: "/shop?category=cotton",
   },
   {
-    title: "Hoodie",
-    slug: "/shop?category=hoodie",
+    title: "Natural Oils",
+    slug: "/shop?category=natural-oils",
   },
   {
-    title: "Jeans",
-    slug: "/shop?category=jeans",
+    title: "Nuts & Dry Fruits",
+    slug: "/shop?category=nuts-dry-fruits",
+  },
+  {
+    title: "Dry Fruits",
+    slug: "/shop?category=dry-fruits",
+  },
+  {
+    title: "Agricultural Products",
+    slug: "/shop?category=agricultural-products",
   },
 ];
 

@@ -15,95 +15,95 @@ const footerLinksData: FooterLinks[] = [
       },
       {
         id: 12,
-        label: "features",
+        label: "global sourcing",
         url: "#",
       },
       {
         id: 13,
-        label: "works",
+        label: "import & export",
         url: "#",
       },
       {
         id: 14,
-        label: "career",
+        label: "quality focus",
         url: "#",
       },
     ],
   },
   {
     id: 2,
-    title: "help",
+    title: "products",
     children: [
       {
         id: 21,
-        label: "customer support",
+        label: "rice",
         url: "#",
       },
       {
         id: 22,
-        label: "delivery details",
+        label: "citrus & fruits",
         url: "#",
       },
       {
         id: 23,
-        label: "terms & conditions",
+        label: "cotton",
         url: "#",
       },
       {
         id: 24,
-        label: "privacy policy",
+        label: "natural oils",
         url: "#",
       },
     ],
   },
   {
     id: 3,
-    title: "faq",
+    title: "more products",
     children: [
       {
         id: 31,
-        label: "account",
+        label: "nuts",
         url: "#",
       },
       {
         id: 32,
-        label: "manage deliveries",
+        label: "dry fruits",
         url: "#",
       },
       {
         id: 33,
-        label: "orders",
+        label: "agricultural products",
         url: "#",
       },
       {
         id: 34,
-        label: "payments",
+        label: "orange & kinnow",
         url: "#",
       },
     ],
   },
   {
     id: 4,
-    title: "resources",
+    title: "management",
     children: [
       {
         id: 41,
-        label: "Free eBooks",
+        label: "CEO: Liton Sen",
         url: "#",
       },
       {
         id: 42,
-        label: "development tutorial",
+        label: "Managing Director / Manager: MD Shafique",
         url: "#",
       },
       {
         id: 43,
-        label: "How to - Blog",
+        label: "International Import & Export",
         url: "#",
       },
       {
         id: 44,
-        label: "youtube playlist",
+        label: "Sky Moon Trading",
         url: "#",
       },
     ],

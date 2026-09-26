@@ -48,7 +48,7 @@ const ReviewCard = ({
         <IoIosCheckmarkCircle className="text-[#01AB31] text-xl sm:text-2xl" />
       </div>
       <p className="text-sm sm:text-base text-black/60">{data.content}</p>
-      {isDate && (
+      {isDate && data.date && (
         <p className="text-black/60 text-sm font-medium mt-4 sm:mt-6">
           Posted on {data.date}
         </p>

@@ -42,7 +42,7 @@ const Header = ({ data }: { data: Product }) => {
             {data.discount.percentage > 0 ? (
               <span className="font-bold text-black text-2xl sm:text-[32px]">
                 {`$${Math.round(
-                  data.price - (data.price * data.discount.percentage) / 100
+                  data.price - (data.price * data.discount.percentage) / 100,
                 )}`}
               </span>
             ) : data.discount.amount > 0 ? (
@@ -77,8 +77,9 @@ const Header = ({ data }: { data: Product }) => {
             )}
           </div>
           <p className="text-sm sm:text-base text-black/60 mb-5">
-            This graphic t-shirt which is perfect for any occasion. Crafted from
-            a soft and breathable fabric, it offers superior comfort and style.
+            Sky Moon Trading sources and supplies quality agricultural and
+            natural products for international markets through professional
+            import-export solutions.
           </p>
           <hr className="h-[1px] border-t-black/10 mb-5" />
           <ColorSelection />

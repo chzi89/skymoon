@@ -68,7 +68,7 @@ const Reviews = ({ data }: ReviewsProps) => {
                 "text-[32px] leading-[36px] md:text-5xl capitalize mr-auto",
               ])}
             >
-              OUR HAPPY CUSTOMERS
+              FROM LOCAL QUALITY TO GLOBAL MARKETS
             </motion.h2>
             <div className="flex items-center space-x-1 ml-2">
               <CarouselPrevious variant="ghost" className="text-2xl">
@@ -96,8 +96,8 @@ const Reviews = ({ data }: ReviewsProps) => {
                             ? (current + 1 === count
                                 ? 0
                                 : current + 1 > count
-                                ? 1
-                                : current + 1) === index &&
+                                  ? 1
+                                  : current + 1) === index &&
                               "backdrop-blur-[2px]"
                             : (current === count ? 0 : current) === index &&
                               "backdrop-blur-[2px]",
@@ -105,14 +105,14 @@ const Reviews = ({ data }: ReviewsProps) => {
                             ? (current === 1
                                 ? count - 2
                                 : current === 2
-                                ? count - 1
-                                : current - 3) === index &&
+                                  ? count - 1
+                                  : current - 3) === index &&
                               "backdrop-blur-[2px]"
                             : (current === 1
                                 ? count - 1
                                 : current === 2
-                                ? 0
-                                : current - 2) === index &&
+                                  ? 0
+                                  : current - 2) === index &&
                               "backdrop-blur-[2px]",
                           "absolute bg-white/10 right-0 top-0 h-full w-full z-10",
                         ])}

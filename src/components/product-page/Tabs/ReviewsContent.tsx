@@ -17,9 +17,11 @@ const ReviewsContent = () => {
       <div className="flex items-center justify-between flex-col sm:flex-row mb-5 sm:mb-6">
         <div className="flex items-center mb-4 sm:mb-0">
           <h3 className="text-xl sm:text-2xl font-bold text-black mr-2">
-            All Reviews
+            Our Trade Commitments
           </h3>
-          <span className="text-sm sm:text-base text-black/60">(451)</span>
+          <span className="text-sm sm:text-base text-black/60">
+            Sourcing, quality, partnerships
+          </span>
         </div>
         <div className="flex items-center space-x-2.5">
           <Select defaultValue="latest">
@@ -37,7 +39,7 @@ const ReviewsContent = () => {
             type="button"
             className="sm:min-w-[166px] px-4 py-3 sm:px-5 sm:py-4 rounded-full bg-black font-medium text-xs sm:text-base h-12"
           >
-            Write a Review
+            Contact Us
           </Button>
         </div>
       </div>
@@ -51,7 +53,7 @@ const ReviewsContent = () => {
           href="#"
           className="inline-block w-[230px] px-11 py-4 border rounded-full hover:bg-black hover:text-white text-black transition-all font-medium text-sm sm:text-base border-black/10"
         >
-          Load More Reviews
+          Explore Products
         </Link>
       </div>
     </section>

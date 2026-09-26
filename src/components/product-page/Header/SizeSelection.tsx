@@ -8,17 +8,25 @@ import React from "react";
 
 const SizeSelection = () => {
   const { sizeSelection } = useAppSelector(
-    (state: RootState) => state.products
+    (state: RootState) => state.products,
   );
   const dispatch = useAppDispatch();
 
   return (
     <div className="flex flex-col">
       <span className="text-sm sm:text-base text-black/60 mb-4">
-        Choose Size
+        Select Product Group
       </span>
       <div className="flex items-center flex-wrap lg:space-x-3">
-        {["Small", "Medium", "Large", "X-Large"].map((size, index) => (
+        {[
+          "Rice",
+          "Citrus",
+          "Cotton",
+          "Natural Oils",
+          "Nuts",
+          "Dry Fruits",
+          "Agricultural Products",
+        ].map((size, index) => (
           <button
             key={index}
             type="button"

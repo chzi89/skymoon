@@ -54,7 +54,7 @@ const ProductCard = ({ data }: ProductCardProps) => {
                   id: data.id,
                   attributes: data.attributes,
                   quantity: data.quantity,
-                })
+                }),
               )
             }
           >
@@ -62,7 +62,7 @@ const ProductCard = ({ data }: ProductCardProps) => {
           </Button>
         </div>
         <div className="-mt-1">
-          <span className="text-black text-xs md:text-sm mr-1">Size:</span>
+          <span className="text-black text-xs md:text-sm mr-1">Type:</span>
           <span className="text-black/60 text-xs md:text-sm">
             {data.attributes[0]}
           </span>
@@ -78,7 +78,7 @@ const ProductCard = ({ data }: ProductCardProps) => {
             {data.discount.percentage > 0 ? (
               <span className="font-bold text-black text-xl xl:text-2xl">
                 {`$${Math.round(
-                  data.price - (data.price * data.discount.percentage) / 100
+                  data.price - (data.price * data.discount.percentage) / 100,
                 )}`}
               </span>
             ) : data.discount.amount > 0 ? (
@@ -122,10 +122,13 @@ const ProductCard = ({ data }: ProductCardProps) => {
                       id: data.id,
                       attributes: data.attributes,
                       quantity: data.quantity,
-                    })
+                    }),
                   )
                 : dispatch(
-                    removeCartItem({ id: data.id, attributes: data.attributes })
+                    removeCartItem({
+                      id: data.id,
+                      attributes: data.attributes,
+                    }),
                   )
             }
             isZeroDelete
