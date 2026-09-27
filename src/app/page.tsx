@@ -10,8 +10,8 @@ export const newArrivalsData: Product[] = [
   {
     id: 1,
     title: "Basmati Rice",
-    srcUrl: "/images/pic1.png",
-    gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
+    srcUrl: "/images/rice-1.jpg",
+    gallery: ["/images/rice-1.jpg", "/images/rice-2.jpg", "/images/rice-3.jpg"],
     price: 120,
     discount: {
       amount: 0,
@@ -22,8 +22,8 @@ export const newArrivalsData: Product[] = [
   {
     id: 2,
     title: "Long Grain Rice",
-    srcUrl: "/images/pic2.png",
-    gallery: ["/images/pic2.png"],
+    srcUrl: "/images/rice-2.jpg",
+    gallery: ["/images/rice-2.jpg", "/images/rice-3.jpg"],
     price: 260,
     discount: {
       amount: 0,
@@ -34,8 +34,8 @@ export const newArrivalsData: Product[] = [
   {
     id: 3,
     title: "Premium Rice",
-    srcUrl: "/images/pic3.png",
-    gallery: ["/images/pic3.png"],
+    srcUrl: "/images/rice-3.jpg",
+    gallery: ["/images/rice-3.jpg", "/images/rice-4.jpg"],
     price: 180,
     discount: {
       amount: 0,
@@ -46,8 +46,8 @@ export const newArrivalsData: Product[] = [
   {
     id: 4,
     title: "Parboiled Rice",
-    srcUrl: "/images/pic4.png",
-    gallery: ["/images/pic4.png", "/images/pic10.png", "/images/pic11.png"],
+    srcUrl: "/images/rice-4.jpg",
+    gallery: ["/images/rice-4.jpg", "/images/rice-1.jpg", "/images/rice-2.jpg"],
     price: 160,
     discount: {
       amount: 0,
@@ -61,8 +61,12 @@ export const topSellingData: Product[] = [
   {
     id: 5,
     title: "Oranges & Kinnow",
-    srcUrl: "/images/pic5.png",
-    gallery: ["/images/pic5.png", "/images/pic10.png", "/images/pic11.png"],
+    srcUrl: "/images/orange-1.jpg",
+    gallery: [
+      "/images/orange-1.jpg",
+      "/images/orange-2.jpg",
+      "/images/orange-3.jpg",
+    ],
     price: 232,
     discount: {
       amount: 0,
@@ -73,8 +77,8 @@ export const topSellingData: Product[] = [
   {
     id: 6,
     title: "Mandarin & Fresh Citrus",
-    srcUrl: "/images/pic6.png",
-    gallery: ["/images/pic6.png", "/images/pic10.png", "/images/pic11.png"],
+    srcUrl: "/images/orange-2.jpg",
+    gallery: ["/images/orange-2.jpg", "/images/orange-1.jpg"],
     price: 145,
     discount: {
       amount: 0,
@@ -85,8 +89,8 @@ export const topSellingData: Product[] = [
   {
     id: 7,
     title: "Raw Cotton & Cotton Bales",
-    srcUrl: "/images/pic7.png",
-    gallery: ["/images/pic7.png"],
+    srcUrl: "/images/seeds.jpg",
+    gallery: ["/images/seeds.jpg"],
     price: 80,
     discount: {
       amount: 0,
@@ -97,8 +101,8 @@ export const topSellingData: Product[] = [
   {
     id: 8,
     title: "Cotton Fiber",
-    srcUrl: "/images/pic8.png",
-    gallery: ["/images/pic8.png"],
+    srcUrl: "/images/seeds.jpg",
+    gallery: ["/images/seeds.jpg"],
     price: 210,
     discount: {
       amount: 0,
@@ -112,8 +116,8 @@ export const relatedProductData: Product[] = [
   {
     id: 12,
     title: "Olive Oil & Natural Cooking Oil",
-    srcUrl: "/images/pic12.png",
-    gallery: ["/images/pic12.png", "/images/pic10.png", "/images/pic11.png"],
+    srcUrl: "/images/oil-1.jpg",
+    gallery: ["/images/oil-1.jpg", "/images/oil-2.jpg", "/images/oil-3.jpg"],
     price: 242,
     discount: {
       amount: 0,
@@ -124,8 +128,8 @@ export const relatedProductData: Product[] = [
   {
     id: 13,
     title: "Cold-Pressed Natural Oil",
-    srcUrl: "/images/pic13.png",
-    gallery: ["/images/pic13.png", "/images/pic10.png", "/images/pic11.png"],
+    srcUrl: "/images/oil-2.jpg",
+    gallery: ["/images/oil-2.jpg", "/images/oil-3.jpg"],
     price: 145,
     discount: {
       amount: 0,
@@ -136,8 +140,8 @@ export const relatedProductData: Product[] = [
   {
     id: 14,
     title: "Nuts: Almonds, Cashews, Walnuts & Pistachios",
-    srcUrl: "/images/pic14.png",
-    gallery: ["/images/pic14.png"],
+    srcUrl: "/images/dryfruit-1.jpg",
+    gallery: ["/images/dryfruit-1.jpg", "/images/dryfruit-2.jpg"],
     price: 180,
     discount: {
       amount: 0,
@@ -148,8 +152,8 @@ export const relatedProductData: Product[] = [
   {
     id: 15,
     title: "Dry Fruits: Dates, Raisins, Figs & Apricots",
-    srcUrl: "/images/pic15.png",
-    gallery: ["/images/pic15.png"],
+    srcUrl: "/images/dryfruit-2.jpg",
+    gallery: ["/images/dryfruit-2.jpg", "/images/dryfruit-3.jpg"],
     price: 150,
     discount: {
       amount: 0,

@@ -30,12 +30,12 @@ const DressStyle = () => {
           <DressStyleCard
             title="Rice"
             url="/shop?category=rice"
-            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/dress-style-1.png')]"
+            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/rice-1.jpg')]"
           />
           <DressStyleCard
             title="Citrus & Fruits"
             url="/shop?category=citrus-fruits"
-            className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-2.png')]"
+            className="md:max-w-[684px] h-[190px] bg-[url('/images/orange-1.jpg')]"
           />
         </motion.div>
         <motion.div
@@ -48,12 +48,12 @@ const DressStyle = () => {
           <DressStyleCard
             title="Cotton & Natural Oils"
             url="/shop?category=cotton-natural-oils"
-            className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-3.png')]"
+            className="md:max-w-[684px] h-[190px] bg-[url('/images/oil-1.jpg')]"
           />
           <DressStyleCard
             title="Nuts & Dry Fruits"
             url="/shop?category=nuts-dry-fruits"
-            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/dress-style-4.png')]"
+            className="md:max-w-[260px] lg:max-w-[360px] xl:max-w-[407px] h-[190px] bg-[url('/images/dryfruit-1.jpg')]"
           />
         </motion.div>
       </section>
