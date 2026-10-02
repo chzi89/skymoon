@@ -6,7 +6,7 @@ Shopco is an open-source project that converts a Figma design of an e-commerce w
 
 ## Table of Contents
 
-- [Shopco](#shopco)
+- [skymoon](#skymoon)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Demo](#demo)

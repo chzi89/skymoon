@@ -25,8 +25,8 @@ const data: NavMenu = [
   {
     id: 2,
     type: "MenuItem",
-    label: "About",
-    url: "/#about",
+    label: "About Us",
+    url: "/about",
     children: [],
   },
   {
@@ -39,8 +39,8 @@ const data: NavMenu = [
   {
     id: 4,
     type: "MenuItem",
-    label: "Contact",
-    url: "/#contact",
+    label: "Contact Us",
+    url: "/contact",
     children: [],
   },
 ];
@@ -57,10 +57,18 @@ const TopNavbar = () => {
             href="/"
             className={cn([
               integralCF.className,
-              "text-2xl lg:text-[32px] mb-2 mr-3 lg:mr-10",
+              "mb-2 mr-3 flex items-center gap-3 lg:mr-10",
             ])}
           >
-            Sky Moon Trading
+            <Image
+              src="/images/Skymoon trading logo.png"
+              alt="Sky Moon Trading logo"
+              width={48}
+              height={48}
+              priority
+              className="h-10 w-10 rounded-full object-cover ring-1 ring-black/10"
+            />
+            <span className="text-2xl lg:text-[32px]">Sky Moon Trading</span>
           </Link>
         </div>
         <NavigationMenu className="hidden md:flex mr-2 lg:mr-7">
