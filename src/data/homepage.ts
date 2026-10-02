@@ -176,14 +176,16 @@ export const reviewsData: Review[] = [
   {
     id: 3,
     user: "Quality Focus",
-    content: "Carefully selected products with a focus on consistency and quality.",
+    content:
+      "Carefully selected products with a focus on consistency and quality.",
     rating: 5,
     date: "",
   },
   {
     id: 4,
     user: "Reliable Partnerships",
-    content: "Building long-term relationships with suppliers and international buyers.",
+    content:
+      "Building long-term relationships with suppliers and international buyers.",
     rating: 5,
     date: "",
   },
